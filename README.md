@@ -9,3 +9,7 @@ With the increasing competition in the hotel business, hotels must be able to ma
 <br>
 The higher the hotel occupancy rate, the more successful the hotel business will be in generating revenue. In the hospitality business, the occupancy rate is very important to monitor and analyze as a marketing strategy and pricing policy.
 <br>
+
+# Forecasting Occupancy Rate at Hotel X
+<div align="justify">
+Based on a research titled Forecasting Occupancy Rate using Neural Network and Decision Tree at Hotel X (DOI: https://doi.org/10.37934/araset.58.1.4962)
