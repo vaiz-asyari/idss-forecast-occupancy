@@ -17,6 +17,7 @@ Based on a research titled Forecasting Occupancy Rate using Neural Network and D
 (DOI: https://doi.org/10.37934/araset.58.1.4962)
 <br>
 </div>
+<br>
 <div align="middle">
 <img src="documentation/forecast-occ.png" height="150rm">
 <br>
@@ -25,6 +26,7 @@ Based on a research titled Forecasting Occupancy Rate using Neural Network and D
 The most optimal RMSE result for the comparison of Neural Network and Decision Tree algorithms for occupancy rate prediction at Hotel X is on the Neural Network algorithm with one hidden layer for data split 70:30 and 80:20 with an RMSE of 0.010.
 <br>
 </div>
+<br>
 <div align="middle">
 <img src="documentation/comparison-algorithm.png" height="100rm">
 </div>
