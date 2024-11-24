@@ -15,3 +15,4 @@ The higher the hotel occupancy rate, the more successful the hotel business will
 Based on a research titled Forecasting Occupancy Rate using Neural Network and Decision Tree at Hotel X 
 <br>
 (DOI: https://doi.org/10.37934/araset.58.1.4962)
+<img src="documentation/forecast-occ.png">
