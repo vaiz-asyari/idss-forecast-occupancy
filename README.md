@@ -34,3 +34,6 @@ The most optimal RMSE result for the comparison of Neural Network and Decision T
 <div align="justify">
 The Intelligent Decision Support System to predict the occupancy rate at Hotel X, was created using the Neural Network method with one hidden layer on the data split of 70:30 and 80:20. The results of this Intelligent Decision Support System will greatly help hotel management in planning the provision of groceries, room needs (guest safety), and employee work schedules. Thus, hotel operations will be effective and efficient and minimize waste.
 </div>
+
+# User Interface
+<h2>1. Guest Identity</h2>
