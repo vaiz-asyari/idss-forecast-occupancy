@@ -36,7 +36,9 @@ The most optimal RMSE result for the comparison of Neural Network and Decision T
 The Intelligent Decision Support System to predict the occupancy rate at Hotel X, was created using the Neural Network method with one hidden layer on the data split of 80:20. The results of this Intelligent Decision Support System will greatly help hotel management in planning the provision of groceries, room needs (guest safety), and employee work schedules. Thus, hotel operations will be effective and efficient and minimize waste.
 </div>
   
-# User Interface
+# Pembuatan Model Forecasting dengan Neural Network
+The framework used in creating models for forecasting occupancy rate is Hard. Loud results in code that is much easier to read and concise. Hard with the API model of serialization/deserialization, callback, and data streaming using Python generators, it is very mature. The researcher also studied Keras from a book written by Basuki Rahmat and Budi Nugroho entitled "Pemrograman Deep Learning Dengan Python" (Deep Learning Programming with Python). Research can be seen at https://github.com/bsrahmat/dl
+
 <div align="justify">
 <h3>1. Guest Identity</h3>
 <div align="middle">
