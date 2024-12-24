@@ -41,31 +41,47 @@ The Intelligent Decision Support System to predict the occupancy rate at Hotel X
 The framework used in creating models for forecasting occupancy rate is Hard. Loud results in code that is much easier to read and concise. Hard with the API model of serialization/deserialization, callback, and data streaming using Python generators, it is very mature. The researcher also studied Keras from a book written by Basuki Rahmat and Budi Nugroho entitled "Pemrograman Deep Learning Dengan Python" (Deep Learning Programming with Python). Research can be seen at https://github.com/bsrahmat/dl
 </div>
 <br>
-</div>
 <div align="middle">
 <img src="./documentation/Cover_DL.jpg" height="350rm">
 </div>
 <br>
 <div align="justify">
-<h3>1. Guest Identity</h3>
+In this study, a neural network method was used with one hidden layer on an 80%:20% split data. Yields RMSE = 0.05625455303110375 and MAPE = 0.10148834250866634. The graph of the test can be seen in the following image.
+</div>
+<br>
 <div align="middle">
-<img src="documentation/UI1.jpg" height="300rm">
+  <img src="./documentation/NN 80-20.png">
 </div>
 <div align="justify">
-The Room Status section provides real-time data on the number of occupied rooms (In-House Guests) and available rooms, categorized by room type (VIP, Deluxe, Standard). This feature serves as a critical tool for monitoring occupancy trends and supporting the forecasting process. The Guest Entry section lists operational options such as same-day reservations, booking reservations, extended stays, early departures, and walk-in guests. These options streamline reservation management, ensuring that data from various guest activities is centrally organized. Additionally, the Reminder section displays upcoming check-out schedules, including guest names, room numbers, and check-out times, enabling better planning and predicting future room availability. A prominent feature, the Occupancy Forecast button, highlights the core forecasting capability of the system, which leverages historical and real-time data to predict occupancy rates accurately.
+  The results for the next 6 months can be seen in the following graph (detail script at file forecasting_occ_nn.ipynb)
 </div>
-<h3>2. Recapitulation of Occupancy</h3>
+<br>
 <div align="middle">
-<img src="documentation/UI2.jpg" height="300rm">
+<img src="./documentation/NN 6 months later.png">
 </div>
+<br>
+
+# Web App with Streamlit
 <div align="justify">
-The Sameday Reservation form, which facilitates guest data input. The form includes fields for personal details, such as name, nationality, gender, check-in date, reservation type (same-day or booking), and the planned duration of stay. This structured data input is essential for capturing information that feeds into forecasting models. Furthermore, the form incorporates a feature for capturing guest ID and photo, ensuring accurate documentation and validation. The interface includes Save Data and Reset buttons, which streamline the process of data storage and form resetting for new entries. Navigation options are also present, indicating seamless integration with other system modules and ensuring ease of use for hotel staff.
+The model that has been created is then created in a web application using streamlit (forecasting_occ.py file). The web application can display forecasting occupancy rate for the next 24 months, so that the hotel will be easier in making decisions and policies in the hotel business.
 </div>
-<h3>3. Forecasting of Occupancy Rate</h3>
+<br>
 <div align="middle">
-<img src="documentation/UI3.png" height="300rm">
+<img src="./documentation/Occ Streamlit.png">
 </div>
+<br>
+
+# Integration with Hotel X Website (PHP-Python)
 <div align="justify">
-These images collectively demonstrate a comprehensive IDSS designed to optimize hotel operations and enhance forecasting capabilities. By integrating real-time data collection, streamlined operational management, and forecasting functionalities, the system empowers hotel managers to make data-driven decisions effectively. The combination of user-friendly interfaces and advanced predictive tools ensures that the system is not only practical but also highly relevant for improving operational efficiency and forecasting accuracy in the hospitality industry.
+To integrate the Hotel X (PHP) website with the Streamlit application website that has been created (Python). By running Streamlit in a separate subdirectory (standalone method).  Use iframes to load the streamlit web app.
+<br>
+Example script:
+<br>
+ <iframe src="http://localhost:8501" width="100%" height="1000px"></iframe>
+<br>
+assuming the Streamlit app is running on the correct address and port (e.g.: http://localhost:8501)
 </div>
+<br>
+<div align="middle">
+  <img src="./documentation/Occ.png">
 </div>
