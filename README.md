@@ -1,6 +1,9 @@
 # Intelligent Decision Support System for Forecasting Occupancy Rate
 Intelligent Decison Support System for Forecasting Occupancy Rate at Hotel X using Neural Network
 
+
+  [![Intelligent Decision Support System for Forecasting Occupancy Rate at Hotel X](https://img.youtube.com/vi/1SYQfIiM2WU/0.jpg)](https://www.youtube.com/watch?v=1SYQfIiM2WU)
+
 # Introduction
 <div align="justify">
 The hospitality business is one of the industries that is growing in the midst of today's business competition, as evidenced by the increasing number of rooms in the accommodation business.
