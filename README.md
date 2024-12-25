@@ -1,8 +1,13 @@
 # Intelligent Decision Support System for Forecasting Occupancy Rate
 Intelligent Decison Support System for Forecasting Occupancy Rate at Hotel X using Neural Network
 
+<div align="middle">
+  <br>
+  
 [![Intelligent Decision Support System for Forecasting Occupancy Rate at Hotel X](https://img.youtube.com/vi/1SYQfIiM2WU/0.jpg)](https://www.youtube.com/watch?v=1SYQfIiM2WU)
-(Video Presentasi)
+
+<b>(Video Presentasi)</b>
+</div>
 
 # Introduction
 <div align="justify">
